@@ -15,3 +15,86 @@
   z-index: -1;
   height: 100vh;
 }
+
+.bg-fabClass {
+  background-image: url("./assets/img/bgfabClass.png");
+ 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6) contrast(0.6);
+
+  
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: -1;
+  height: 80vh;
+
+}
+
+.bg-eventRegister {
+  background-image: url("./assets/img/eventRegister.png");
+ 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.9) contrast(0.9);
+
+  
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: -1;
+  height: 80vh;
+
+}
+
+.bg-bgProgram {
+  background-image: url("./assets/img/bgprogram.jpg");
+ 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.9) contrast(0.9);
+
+  
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: -1;
+  height: 80vh;
+
+}
+
+.bg-Events{
+  background-image: url("./assets/img/bgRgstr.png");
+ 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.9) contrast(0.9);
+
+  
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: -1;
+  height: 80vh;
+
+}
+
+.bg-Machines{
+  background-image: url("./assets/img/bgMachine1.PNG");
+ 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.9) contrast(0.95);
+
+  
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: -1;
+  height: 80vh;
+
+}
+
+
+

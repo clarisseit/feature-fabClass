@@ -9,9 +9,11 @@ import Programs from "./pages/programs.jsx";
 import FabClass from "./pages/fabClass.jsx";
 import OurServices from "./pages/ourServices.jsx";
 import Events from "./pages/events.jsx";
+import EventRegister from "./pages/eventRegister.jsx"
 import GetQuote from "./pages/getQuote.jsx";
 import Nav from "./components/Navbars/HomeNavbar.jsx";
 import DashboardLayout from "./layouts/Dashboard.jsx";
+import Machines from "./pages/machines.jsx";
 
 
 import Dashboard from "./pages/dashboard/Dashboard.jsx";
@@ -23,7 +25,7 @@ const Layout = () => {
     <>
       <Nav />
       <Outlet />
-    </>
+      </>
   );
 };
 
@@ -38,7 +40,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="fabClass" element={<FabClass />} />
           <Route path="ourServices" element={<OurServices />} />
           <Route path="events" element={<Events />} />
+          <Route path="eventRegister" element={<EventRegister />} />
           <Route path="getQuote" element={<GetQuote />} />
+          <Route path="machines" element={<Machines />} />
         </Route>
         <Route path="dashboard" element={<DashboardLayout />}>
           <Route path="/dashboard/stats" index element={<Dashboard/>} />
